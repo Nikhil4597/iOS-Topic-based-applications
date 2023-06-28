@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5647684A29EAC97C00BF4829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5647684929EAC97C00BF4829 /* AppDelegate.m */; };
+		5647684D29EAC97C00BF4829 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5647684C29EAC97C00BF4829 /* SceneDelegate.m */; };
+		5647685529EAC97D00BF4829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5647685429EAC97D00BF4829 /* Assets.xcassets */; };
+		5647685829EAC97D00BF4829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5647685629EAC97D00BF4829 /* LaunchScreen.storyboard */; };
+		5647685B29EAC97D00BF4829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5647685A29EAC97D00BF4829 /* main.m */; };
+		5647686529EAC97D00BF4829 /* Mini_ShoppingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5647686429EAC97D00BF4829 /* Mini_ShoppingTests.m */; };
+		5647686F29EAC97D00BF4829 /* Mini_ShoppingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5647686E29EAC97D00BF4829 /* Mini_ShoppingUITests.m */; };
+		5647687129EAC97D00BF4829 /* Mini_ShoppingUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5647687029EAC97D00BF4829 /* Mini_ShoppingUITestsLaunchTests.m */; };
+		5647687F29EACEA500BF4829 /* MiniShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5647687E29EACEA500BF4829 /* MiniShoppingViewController.m */; };
+		5647688229EACF8300BF4829 /* MiniShoppingDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5647688129EACF8300BF4829 /* MiniShoppingDataModel.m */; };
+		5647688529EACFAC00BF4829 /* MiniShoppingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5647688429EACFAC00BF4829 /* MiniShoppingView.m */; };
+		5647688829EAD07300BF4829 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5647688729EAD07300BF4829 /* ItemCell.m */; };
+		5669409A29EC4E3F008E2C74 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669409929EC4E3F008E2C74 /* MainViewController.m */; };
+		56DDAD9729EDCF6B00167196 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DDAD9629EDCF6B00167196 /* ImageDownloader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5647686129EAC97D00BF4829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5647683D29EAC97C00BF4829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5647684429EAC97C00BF4829;
+			remoteInfo = "Mini Shopping";
+		};
+		5647686B29EAC97D00BF4829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5647683D29EAC97C00BF4829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5647684429EAC97C00BF4829;
+			remoteInfo = "Mini Shopping";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5647684529EAC97C00BF4829 /* Mini Shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Shopping.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5647684829EAC97C00BF4829 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5647684929EAC97C00BF4829 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5647684B29EAC97C00BF4829 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5647684C29EAC97C00BF4829 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5647685429EAC97D00BF4829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5647685729EAC97D00BF4829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5647685929EAC97D00BF4829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5647685A29EAC97D00BF4829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5647686029EAC97D00BF4829 /* Mini ShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini ShoppingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5647686429EAC97D00BF4829 /* Mini_ShoppingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mini_ShoppingTests.m; sourceTree = "<group>"; };
+		5647686A29EAC97D00BF4829 /* Mini ShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini ShoppingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5647686E29EAC97D00BF4829 /* Mini_ShoppingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mini_ShoppingUITests.m; sourceTree = "<group>"; };
+		5647687029EAC97D00BF4829 /* Mini_ShoppingUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mini_ShoppingUITestsLaunchTests.m; sourceTree = "<group>"; };
+		5647687D29EACEA500BF4829 /* MiniShoppingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniShoppingViewController.h; sourceTree = "<group>"; };
+		5647687E29EACEA500BF4829 /* MiniShoppingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniShoppingViewController.m; sourceTree = "<group>"; };
+		5647688029EACF8300BF4829 /* MiniShoppingDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniShoppingDataModel.h; sourceTree = "<group>"; };
+		5647688129EACF8300BF4829 /* MiniShoppingDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniShoppingDataModel.m; sourceTree = "<group>"; };
+		5647688329EACFAC00BF4829 /* MiniShoppingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniShoppingView.h; sourceTree = "<group>"; };
+		5647688429EACFAC00BF4829 /* MiniShoppingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniShoppingView.m; sourceTree = "<group>"; };
+		5647688629EAD07300BF4829 /* ItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		5647688729EAD07300BF4829 /* ItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		5669409829EC4E3F008E2C74 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5669409929EC4E3F008E2C74 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		56DDAD9529EDCF6B00167196 /* ImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		56DDAD9629EDCF6B00167196 /* ImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5647684229EAC97C00BF4829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5647685D29EAC97D00BF4829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5647686729EAC97D00BF4829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5647683C29EAC97C00BF4829 = {
+			isa = PBXGroup;
+			children = (
+				5647684729EAC97C00BF4829 /* Mini Shopping */,
+				5647686329EAC97D00BF4829 /* Mini ShoppingTests */,
+				5647686D29EAC97D00BF4829 /* Mini ShoppingUITests */,
+				5647684629EAC97C00BF4829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5647684629EAC97C00BF4829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5647684529EAC97C00BF4829 /* Mini Shopping.app */,
+				5647686029EAC97D00BF4829 /* Mini ShoppingTests.xctest */,
+				5647686A29EAC97D00BF4829 /* Mini ShoppingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5647684729EAC97C00BF4829 /* Mini Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				5647684829EAC97C00BF4829 /* AppDelegate.h */,
+				5647684929EAC97C00BF4829 /* AppDelegate.m */,
+				5647684B29EAC97C00BF4829 /* SceneDelegate.h */,
+				5647684C29EAC97C00BF4829 /* SceneDelegate.m */,
+				5647687D29EACEA500BF4829 /* MiniShoppingViewController.h */,
+				5647687E29EACEA500BF4829 /* MiniShoppingViewController.m */,
+				5669409829EC4E3F008E2C74 /* MainViewController.h */,
+				5669409929EC4E3F008E2C74 /* MainViewController.m */,
+				5647688029EACF8300BF4829 /* MiniShoppingDataModel.h */,
+				5647688129EACF8300BF4829 /* MiniShoppingDataModel.m */,
+				5647688329EACFAC00BF4829 /* MiniShoppingView.h */,
+				5647688429EACFAC00BF4829 /* MiniShoppingView.m */,
+				56DDAD9529EDCF6B00167196 /* ImageDownloader.h */,
+				56DDAD9629EDCF6B00167196 /* ImageDownloader.m */,
+				5647688629EAD07300BF4829 /* ItemCell.h */,
+				5647688729EAD07300BF4829 /* ItemCell.m */,
+				5647685429EAC97D00BF4829 /* Assets.xcassets */,
+				5647685629EAC97D00BF4829 /* LaunchScreen.storyboard */,
+				5647685929EAC97D00BF4829 /* Info.plist */,
+				5647685A29EAC97D00BF4829 /* main.m */,
+			);
+			path = "Mini Shopping";
+			sourceTree = "<group>";
+		};
+		5647686329EAC97D00BF4829 /* Mini ShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				5647686429EAC97D00BF4829 /* Mini_ShoppingTests.m */,
+			);
+			path = "Mini ShoppingTests";
+			sourceTree = "<group>";
+		};
+		5647686D29EAC97D00BF4829 /* Mini ShoppingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5647686E29EAC97D00BF4829 /* Mini_ShoppingUITests.m */,
+				5647687029EAC97D00BF4829 /* Mini_ShoppingUITestsLaunchTests.m */,
+			);
+			path = "Mini ShoppingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5647684429EAC97C00BF4829 /* Mini Shopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5647687429EAC97D00BF4829 /* Build configuration list for PBXNativeTarget "Mini Shopping" */;
+			buildPhases = (
+				5647684129EAC97C00BF4829 /* Sources */,
+				5647684229EAC97C00BF4829 /* Frameworks */,
+				5647684329EAC97C00BF4829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mini Shopping";
+			productName = "Mini Shopping";
+			productReference = 5647684529EAC97C00BF4829 /* Mini Shopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5647685F29EAC97D00BF4829 /* Mini ShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5647687729EAC97D00BF4829 /* Build configuration list for PBXNativeTarget "Mini ShoppingTests" */;
+			buildPhases = (
+				5647685C29EAC97D00BF4829 /* Sources */,
+				5647685D29EAC97D00BF4829 /* Frameworks */,
+				5647685E29EAC97D00BF4829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5647686229EAC97D00BF4829 /* PBXTargetDependency */,
+			);
+			name = "Mini ShoppingTests";
+			productName = "Mini ShoppingTests";
+			productReference = 5647686029EAC97D00BF4829 /* Mini ShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5647686929EAC97D00BF4829 /* Mini ShoppingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5647687A29EAC97D00BF4829 /* Build configuration list for PBXNativeTarget "Mini ShoppingUITests" */;
+			buildPhases = (
+				5647686629EAC97D00BF4829 /* Sources */,
+				5647686729EAC97D00BF4829 /* Frameworks */,
+				5647686829EAC97D00BF4829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5647686C29EAC97D00BF4829 /* PBXTargetDependency */,
+			);
+			name = "Mini ShoppingUITests";
+			productName = "Mini ShoppingUITests";
+			productReference = 5647686A29EAC97D00BF4829 /* Mini ShoppingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5647683D29EAC97C00BF4829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5647684429EAC97C00BF4829 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5647685F29EAC97D00BF4829 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5647684429EAC97C00BF4829;
+					};
+					5647686929EAC97D00BF4829 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5647684429EAC97C00BF4829;
+					};
+				};
+			};
+			buildConfigurationList = 5647684029EAC97C00BF4829 /* Build configuration list for PBXProject "Mini Shopping" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5647683C29EAC97C00BF4829;
+			productRefGroup = 5647684629EAC97C00BF4829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5647684429EAC97C00BF4829 /* Mini Shopping */,
+				5647685F29EAC97D00BF4829 /* Mini ShoppingTests */,
+				5647686929EAC97D00BF4829 /* Mini ShoppingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5647684329EAC97C00BF4829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5647685829EAC97D00BF4829 /* LaunchScreen.storyboard in Resources */,
+				5647685529EAC97D00BF4829 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5647685E29EAC97D00BF4829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5647686829EAC97D00BF4829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5647684129EAC97C00BF4829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5647688229EACF8300BF4829 /* MiniShoppingDataModel.m in Sources */,
+				5647684A29EAC97C00BF4829 /* AppDelegate.m in Sources */,
+				5669409A29EC4E3F008E2C74 /* MainViewController.m in Sources */,
+				56DDAD9729EDCF6B00167196 /* ImageDownloader.m in Sources */,
+				5647685B29EAC97D00BF4829 /* main.m in Sources */,
+				5647688829EAD07300BF4829 /* ItemCell.m in Sources */,
+				5647688529EACFAC00BF4829 /* MiniShoppingView.m in Sources */,
+				5647684D29EAC97C00BF4829 /* SceneDelegate.m in Sources */,
+				5647687F29EACEA500BF4829 /* MiniShoppingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5647685C29EAC97D00BF4829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5647686529EAC97D00BF4829 /* Mini_ShoppingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5647686629EAC97D00BF4829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5647686F29EAC97D00BF4829 /* Mini_ShoppingUITests.m in Sources */,
+				5647687129EAC97D00BF4829 /* Mini_ShoppingUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5647686229EAC97D00BF4829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5647684429EAC97C00BF4829 /* Mini Shopping */;
+			targetProxy = 5647686129EAC97D00BF4829 /* PBXContainerItemProxy */;
+		};
+		5647686C29EAC97D00BF4829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5647684429EAC97C00BF4829 /* Mini Shopping */;
+			targetProxy = 5647686B29EAC97D00BF4829 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5647685629EAC97D00BF4829 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5647685729EAC97D00BF4829 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5647687229EAC97D00BF4829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5647687329EAC97D00BF4829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5647687529EAC97D00BF4829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mini Shopping/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.com.Mini-Shopping";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5647687629EAC97D00BF4829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mini Shopping/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.com.Mini-Shopping";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5647687829EAC97D00BF4829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.com.Mini-ShoppingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mini Shopping.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mini Shopping";
+			};
+			name = Debug;
+		};
+		5647687929EAC97D00BF4829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.com.Mini-ShoppingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mini Shopping.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mini Shopping";
+			};
+			name = Release;
+		};
+		5647687B29EAC97D00BF4829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.com.Mini-ShoppingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mini Shopping";
+			};
+			name = Debug;
+		};
+		5647687C29EAC97D00BF4829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.com.Mini-ShoppingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mini Shopping";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5647684029EAC97C00BF4829 /* Build configuration list for PBXProject "Mini Shopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5647687229EAC97D00BF4829 /* Debug */,
+				5647687329EAC97D00BF4829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5647687429EAC97D00BF4829 /* Build configuration list for PBXNativeTarget "Mini Shopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5647687529EAC97D00BF4829 /* Debug */,
+				5647687629EAC97D00BF4829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5647687729EAC97D00BF4829 /* Build configuration list for PBXNativeTarget "Mini ShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5647687829EAC97D00BF4829 /* Debug */,
+				5647687929EAC97D00BF4829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5647687A29EAC97D00BF4829 /* Build configuration list for PBXNativeTarget "Mini ShoppingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5647687B29EAC97D00BF4829 /* Debug */,
+				5647687C29EAC97D00BF4829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5647683D29EAC97C00BF4829 /* Project object */;
+}

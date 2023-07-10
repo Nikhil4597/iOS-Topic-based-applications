@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0E724BA5-AB79-40D1-A0C2-EE85D1E51ED7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EE01997-5A19-4F34-8719-86E304B5FB6C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Shopping/MiniShoppingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "-configResponseData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B66D4CB-14C7-4264-A166-2CFB5DB76518"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Shopping/MiniShoppingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "-modifyPrice:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C8B7348-03D3-44BE-B732-7FDFE4F3181E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Shopping/MiniShoppingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "-breakStringIfNeeded:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C8B7348-03D3-44BE-B732-7FDFE4F3181E - 3628797b8b3dca65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MiniShoppingViewController breakStringIfNeeded:]"
+                  moduleName = "Mini Shopping"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohitmishra/Desktop/Github-Task/Add%20accessiblity/Mini%20Shopping%20copy/Mini%20Shopping/MiniShoppingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "228"
+                  endingLineNumber = "228"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "4C8B7348-03D3-44BE-B732-7FDFE4F3181E - 3628797b8b3dca65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MiniShoppingViewController breakStringIfNeeded:]"
+                  moduleName = "Mini Shopping"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohitmishra/Desktop/Github-Task/Add%20accessiblity/Mini%20Shopping%20copy/Mini%20Shopping/MiniShoppingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "228"
+                  endingLineNumber = "228"
+                  offsetFromSymbolStart = "248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9EB07C1-594E-4D07-B88B-CDFA04B1A6A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Shopping/MiniShoppingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "-breakStringIfNeeded:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C9EB07C1-594E-4D07-B88B-CDFA04B1A6A1 - 3628797b8b3dca23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MiniShoppingViewController breakStringIfNeeded:]"
+                  moduleName = "Mini Shopping"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohitmishra/Desktop/Github-Task/Add%20accessiblity/Mini%20Shopping%20copy/Mini%20Shopping/MiniShoppingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "230"
+                  endingLineNumber = "230"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "C9EB07C1-594E-4D07-B88B-CDFA04B1A6A1 - 3628797b8b3dca23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MiniShoppingViewController breakStringIfNeeded:]"
+                  moduleName = "Mini Shopping"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohitmishra/Desktop/Github-Task/Add%20accessiblity/Mini%20Shopping%20copy/Mini%20Shopping/MiniShoppingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "230"
+                  endingLineNumber = "230"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47F9C314-BEB6-4292-9517-D16A210FF2D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Shopping/MyCart/MyCartViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F21D7EEC-54F2-4657-9C4A-B6C7D129D8D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Shopping/Account/AccountVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-setUpView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "806225E4-9086-41AF-A700-E64751BA8B24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Shopping/MainScreen/MainViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-shoppingViewController:didUpdateData:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
